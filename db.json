@@ -1,19 +1,19 @@
 {
     "inputs": [
         {
-            "id": 1, "type": "analog", "depthIntegration": "100", "display": true
+            "id": 1, "type": "Аналоговый", "depthIntegration": "100", "display": true
         },
         {
-            "id": 2, "type": "relay", "depthIntegration": "110", "display": true
+            "id": 2, "type": "Реллейный", "depthIntegration": "110", "display": true
         },
         {
-            "id": 3, "type": "relay", "depthIntegration": "120", "display": true
+            "id": 3, "type": "Реллейный", "depthIntegration": "120", "display": true
         },
         {
-            "id": 4, "type": "analog", "depthIntegration": "80", "display": true
+            "id": 4, "type": "Аналоговый", "depthIntegration": "80", "display": true
         },
         {
-            "id": 5, "type": "analog", "depthIntegration": "50", "display": true
+            "id": 5, "type": "Аналоговый", "depthIntegration": "50", "display": true
         }
     ],
     "outputs": [
