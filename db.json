@@ -1,6 +1,5 @@
 {
-    "inputs": [
-        {
+    "inputs": [{
             "id": 1,
             "type": "Аналоговый",
             "depthIntegration": "100",
@@ -31,8 +30,7 @@
             "display": true
         }
     ],
-    "outputs": [
-        {
+    "outputs": [{
             "id": 1,
             "type": "Аналоговый",
             "sum": 10,
@@ -51,8 +49,7 @@
             "threshold": 0
         }
     ],
-    "profiles": [
-        {
+    "profiles": [{
             "value": "winter",
             "active": true
         },
