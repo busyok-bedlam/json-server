@@ -21,7 +21,7 @@
             "id": 1, "type": "Аналоговый", "sum": 10, "min": 1, "max": 15, "display": true, "threshold": 60
         },
         {
-            "id": 2, "sum": 10, "type": "Реллейный", "min": 1, "max": 15, "display": true, "threshold": 0
+            "id": 2, "sum": 10,"type": "Реллейный", "min": 1, "max": 15, "display": true, "threshold": 0
         }
     ],
     "profiles": [
