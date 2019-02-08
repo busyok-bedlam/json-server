@@ -30,14 +30,15 @@
             "display": true
         }
     ],
-    "outputs": [{
+    "outputs": [
+        {
             "id": 1,
             "type": "Аналоговый",
             "sum": 10,
             "min": 1,
             "max": 15,
-            "display": true,
-            "threshold": 60
+            "display": true
+            
         },
         {
             "id": 2,
@@ -46,7 +47,25 @@
             "min": 1,
             "max": 15,
             "display": true,
-            "threshold": 0
+            "threshold": 60
+        },
+        {
+            "id": 3,
+            "type": "Аналоговый",
+            "sum": 10,
+            "min": 1,
+            "max": 15,
+            "display": true
+            
+        },
+        {
+            "id": 4,
+            "sum": 10,
+            "type": "Реллейный",
+            "min": 1,
+            "max": 15,
+            "display": true,
+            "threshold": 60
         }
     ],
     "profiles": [{
