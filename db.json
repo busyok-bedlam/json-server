@@ -68,13 +68,18 @@
             "threshold": 60
         }
     ],
-    "profiles": [{
+    "profiles": [
+        {
             "value": "winter",
-            "active": true
+            "active": false
         },
         {
             "value": "summer",
             "active": false
+        },
+        {
+            "value": "autumn",
+            "active": true
         }
     ]
 }
