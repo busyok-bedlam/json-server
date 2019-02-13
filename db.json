@@ -1,31 +1,31 @@
 {
     "inputs": [{
             "id": 1,
-            "type": "Аналоговый",
+            "type": "Analog",
             "depthIntegration": "100",
             "display": true
         },
         {
             "id": 2,
-            "type": "Реллейный",
+            "type": "Relay",
             "depthIntegration": "110",
             "display": true
         },
         {
             "id": 3,
-            "type": "Реллейный",
+            "type": "Relay",
             "depthIntegration": "120",
             "display": true
         },
         {
             "id": 4,
-            "type": "Аналоговый",
+            "type": "Analog",
             "depthIntegration": "80",
             "display": true
         },
         {
             "id": 5,
-            "type": "Аналоговый",
+            "type": "Analog",
             "depthIntegration": "50",
             "display": true
         }
