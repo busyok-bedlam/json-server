@@ -41,6 +41,20 @@
             "date": "02.02.1666",
             "text": "some text 6",
             "version": "v166.166.166"
+        },
+        {
+            "id": 7,
+            "devName": "device-5",
+            "date": "02.02.1555",
+            "text": "some text 5",
+            "version": "v123.123.123"
+        },
+        {
+            "id": 8,
+            "devName": "device-6",
+            "date": "02.02.1666",
+            "text": "some text 6",
+            "version": "v166.166.166"
         }
     ]
 }
