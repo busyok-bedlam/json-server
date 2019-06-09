@@ -3,7 +3,7 @@
         {
             "id": 1,
             "devName": "device-1",
-            "date": "02.02.1342",
+            "date": "02.02.1111",
             "text": "some text 1",
             "version": "v123.123.123"
         },
@@ -23,23 +23,23 @@
         },
         {
             "id": 4,
-            "devName": "device-5",
-            "date": "02.02.1538",
-            "text": "some text 5",
+            "devName": "device-4",
+            "date": "02.02.1444",
+            "text": "some text 4",
             "version": "v155.155.155"
         },
         {
             "id": 5,
-            "devName": "device-1",
-            "date": "02.02.1342",
-            "text": "some text 1",
+            "devName": "device-5",
+            "date": "02.02.1555",
+            "text": "some text 5",
             "version": "v123.123.123"
         },
         {
             "id": 6,
-            "devName": "device-1",
-            "date": "02.02.1342",
-            "text": "some text 1",
+            "devName": "device-6",
+            "date": "02.02.1666",
+            "text": "some text 6",
             "version": "v166.166.166"
         }
     ]
