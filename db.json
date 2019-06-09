@@ -1,85 +1,46 @@
 {
-    "inputs": [{
+    "devices": [
+        {
             "id": 1,
-            "type": "Analog",
-            "depthIntegration": "100",
-            "display": true
+            "devName": "device-1",
+            "date": "02.02.1342",
+            "text": "some text 1",
+            "version": "v123.123.123"
         },
         {
             "id": 2,
-            "type": "Relay",
-            "depthIntegration": "110",
-            "display": true
+            "devName": "device-2",
+            "date": "03.03.1222",
+            "text": "some text 2",
+            "version": "v231.231.231"
         },
         {
             "id": 3,
-            "type": "Relay",
-            "depthIntegration": "120",
-            "display": true
+            "devName": "device-3",
+            "date": "04.05.1333",
+            "text": "some text 3",
+            "version": "v144.144.144"
         },
         {
             "id": 4,
-            "type": "Analog",
-            "depthIntegration": "80",
-            "display": true
+            "devName": "device-5",
+            "date": "02.02.1538",
+            "text": "some text 5",
+            "version": "v155.155.155"
         },
         {
             "id": 5,
-            "type": "Analog",
-            "depthIntegration": "50",
-            "display": true
-        }
-    ],
-    "outputs": [
-        {
-            "id": 1,
-            "type": "Analog",
-            "sum": 10,
-            "min": 1,
-            "max": 15,
-            "display": true
-            
+            "devName": "device-1",
+            "date": "02.02.1342",
+            "text": "some text 1",
+            "version": "v123.123.123"
         },
         {
-            "id": 2,
-            "sum": 10,
-            "type": "Relay",
-            "min": 1,
-            "max": 15,
-            "display": true,
-            "threshold": 60
-        },
-        {
-            "id": 3,
-            "type": "Analog",
-            "sum": 10,
-            "min": 1,
-            "max": 15,
-            "display": true
-            
-        },
-        {
-            "id": 4,
-            "sum": 10,
-            "type": "Relay",
-            "min": 1,
-            "max": 15,
-            "display": true,
-            "threshold": 60
-        }
-    ],
-    "profiles": [
-        {
-            "value": "winter",
-            "active": false
-        },
-        {
-            "value": "summer",
-            "active": false
-        },
-        {
-            "value": "autumn",
-            "active": true
+            "id": 6,
+            "devName": "device-1",
+            "date": "02.02.1342",
+            "text": "some text 1",
+            "version": "v166.166.166"
         }
     ]
 }
