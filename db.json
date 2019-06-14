@@ -1,829 +1,210 @@
 {
-
     "devicesInfo": [
         {
             "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
+                "userDefaultSettings": {
+                    "defPortionSize1AmbientWater": 123,
+                    "defPortionSize2AmbientWater": 123,
+                    "defPortionSize1ChilledWater": 123,
+                    "defPortionSize2ChilledWater": 123,
+                    "defPortionSize1SparklingWater": 123,
+                    "defPortionSize2SparklingWater": 123,
+                    "defPortionSize1MediumWater": 123,
+                    "defPortionSize2MediumWater": 123,
+                    "defPortionSize1HotWater": 123,
+                    "defPortionSize2HotWater": 123,
+                    "defBoilerTempSetPt": 123,
+                    "defCoolerTempLvl": 123,
+                    "defFillbyte1": 123,
+                    "defFillbyte2": 123
+                },
+                "userSettings": {
+                    "curLanguage": 123,
+                    "userFillbyte1": 123,
+                    "curSecondNozzleActive": 123,
+                    "curSelectedPortion": 123,
+                    "curSelectedMode": 123,
+                    "userFillbyte2": 123,
+                    "curPortionSize1AmbientWater": 123,
+                    "curPortionSize2AmbientWater": 123,
+                    "curPortionSize1ChilledWater": 123,
+                    "curPortionSize2ChilledWater": 123,
+                    "curPortionSize1SparklingWater": 123,
+                    "curPortionSize2SparklingWater": 123,
+                    "curPortionSize1MediumWater": 123,
+                    "curPortionSize2MediumWater": 123,
+                    "curPortionSize1HotWater": 123,
+                    "curPortionSize2HotWater": 123,
+                    "curBoilerTempSetPt": 123,
+                    "curCoolerTempLvl": 123,
+                    "lcdBrightness": 123,
+                    "buttonBrightNormal": 123,
+                    "buttonBrightDimmed": 123,
+                    "deviceStandby": 123,
+                    "boilerStandby": 123,
+                    "userFillbyte3": 123,
+                    "userFillbyte4": 123,
+                    "userFillbyte5": 123
+                },
+                "productionSettings": {
+                    "deviceProductFamily": 123,
+                    "countOfNozzles": 123,
+                    "countOfTgbs": 123,
+                    "coolerType": 123,
+                    "coolerSize": 123,
+                    "deviceHasDripTray": 123,
+                    "deviceHasWasteWaterContainer": 123,
+                    "deviceHasBoiler": 123,
+                    "deviceHasHs": 123,
+                    "deviceHasFlowMeter": 123,
+                    "prodDataFillbyte1": 123,
+                    "prodDataFillbyte2": 123
+                },
+                "debugSettings": {
+                    "hwTest": 123,
+                    "fillbyte1": 123,
+                    "fillbyte2": 123,
+                    "fillbyte3": 123
+                },
+                "calibrationSettings": {
+                    "tempColdThresholdUpper": 123,
+                    "tempColdThresholdLower": 123,
+                    "tempVeryColdThresholdUpper": 123,
+                    "tempVeryColdThresholdLower": 123,
+                    "tempExtremColdThresholdUpper": 123,
+                    "tempExtremColdThresholdLower": 123,
+                    "timerTicksPerLiterAmbient": 123,
+                    "timerTicksPerLiterChilled": 123,
+                    "timerTicksPerLiterSparkling": 123,
+                    "timerTicksPerLiterMedium": 123,
+                    "timerTicksPerLiterHot": 123,
+                    "flowMeterTicksPerLiterAmbient": 123,
+                    "flowMeterTicksPerLiterChilled": 123,
+                    "flowMeterTicksPerLiterSparkling": 123,
+                    "flowMeterTicksPerLiterMedium": 123,
+                    "flowMeterTicksPerLiterHot": 123
+                },
+                "statistics": {
+                    "ctrPreFilterHot": 123,
+                    "timerPreFilterHot": 123,
+                    "statFillbyte1": 123,
+                    "statFillbyte2": 123
+                }
             },
             "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
+                "keypad": {
+                    "state": "boot"
+                },
+                "cooler": {
+                    "state": "boot"
+                },
+                "boiler": {
+                    "state": "boot"
+                }
             }
-          },
-          {
+        },
+        {
             "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
+                "userDefaultSettings": {
+                    "defPortionSize1AmbientWater": 123,
+                    "defPortionSize2AmbientWater": 123,
+                    "defPortionSize1ChilledWater": 123,
+                    "defPortionSize2ChilledWater": 123,
+                    "defPortionSize1SparklingWater": 123,
+                    "defPortionSize2SparklingWater": 123,
+                    "defPortionSize1MediumWater": 123,
+                    "defPortionSize2MediumWater": 123,
+                    "defPortionSize1HotWater": 123,
+                    "defPortionSize2HotWater": 123,
+                    "defBoilerTempSetPt": 123,
+                    "defCoolerTempLvl": 123,
+                    "defFillbyte1": 123,
+                    "defFillbyte2": 123
+                },
+                "userSettings": {
+                    "curLanguage": 123,
+                    "userFillbyte1": 123,
+                    "curSecondNozzleActive": 123,
+                    "curSelectedPortion": 123,
+                    "curSelectedMode": 123,
+                    "userFillbyte2": 123,
+                    "curPortionSize1AmbientWater": 123,
+                    "curPortionSize2AmbientWater": 123,
+                    "curPortionSize1ChilledWater": 123,
+                    "curPortionSize2ChilledWater": 123,
+                    "curPortionSize1SparklingWater": 123,
+                    "curPortionSize2SparklingWater": 123,
+                    "curPortionSize1MediumWater": 123,
+                    "curPortionSize2MediumWater": 123,
+                    "curPortionSize1HotWater": 123,
+                    "curPortionSize2HotWater": 123,
+                    "curBoilerTempSetPt": 123,
+                    "curCoolerTempLvl": 123,
+                    "lcdBrightness": 123,
+                    "buttonBrightNormal": 123,
+                    "buttonBrightDimmed": 123,
+                    "deviceStandby": 123,
+                    "boilerStandby": 123,
+                    "userFillbyte3": 123,
+                    "userFillbyte4": 123,
+                    "userFillbyte5": 123
+                },
+                "productionSettings": {
+                    "deviceProductFamily": 123,
+                    "countOfNozzles": 123,
+                    "countOfTgbs": 123,
+                    "coolerType": 123,
+                    "coolerSize": 123,
+                    "deviceHasDripTray": 123,
+                    "deviceHasWasteWaterContainer": 123,
+                    "deviceHasBoiler": 123,
+                    "deviceHasHs": 123,
+                    "deviceHasFlowMeter": 123,
+                    "prodDataFillbyte1": 123,
+                    "prodDataFillbyte2": 123
+                },
+                "debugSettings": {
+                    "hwTest": 123,
+                    "fillbyte1": 123,
+                    "fillbyte2": 123,
+                    "fillbyte3": 123
+                },
+                "calibrationSettings": {
+                    "tempColdThresholdUpper": 123,
+                    "tempColdThresholdLower": 123,
+                    "tempVeryColdThresholdUpper": 123,
+                    "tempVeryColdThresholdLower": 123,
+                    "tempExtremColdThresholdUpper": 123,
+                    "tempExtremColdThresholdLower": 123,
+                    "timerTicksPerLiterAmbient": 123,
+                    "timerTicksPerLiterChilled": 123,
+                    "timerTicksPerLiterSparkling": 123,
+                    "timerTicksPerLiterMedium": 123,
+                    "timerTicksPerLiterHot": 123,
+                    "flowMeterTicksPerLiterAmbient": 123,
+                    "flowMeterTicksPerLiterChilled": 123,
+                    "flowMeterTicksPerLiterSparkling": 123,
+                    "flowMeterTicksPerLiterMedium": 123,
+                    "flowMeterTicksPerLiterHot": 123
+                },
+                "statistics": {
+                    "ctrPreFilterHot": 123,
+                    "timerPreFilterHot": 123,
+                    "statFillbyte1": 123,
+                    "statFillbyte2": 123
+                }
             },
             "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
+                "keypad": {
+                    "state": "boot"
+                },
+                "cooler": {
+                    "state": "boot"
+                },
+                "boiler": {
+                    "state": "boot"
+                }
             }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          },
-          {
-            "datastore": {
-              "userDefaultSettings": {
-                "defPortionSize1AmbientWater": 123,
-                "defPortionSize2AmbientWater": 123,
-                "defPortionSize1ChilledWater": 123,
-                "defPortionSize2ChilledWater": 123,
-                "defPortionSize1SparklingWater": 123,
-                "defPortionSize2SparklingWater": 123,
-                "defPortionSize1MediumWater": 123,
-                "defPortionSize2MediumWater": 123,
-                "defPortionSize1HotWater": 123,
-                "defPortionSize2HotWater": 123,
-                "defBoilerTempSetPt": 123,
-                "defCoolerTempLvl": 123,
-                "defFillbyte1": 123,
-                "defFillbyte2": 123
-              },
-              "userSettings": {
-                "curLanguage": 123,
-                "userFillbyte1": 123,
-                "curSecondNozzleActive": 123,
-                "curSelectedPortion": 123,
-                "curSelectedMode": 123,
-                "userFillbyte2": 123,
-                "curPortionSize1AmbientWater": 123,
-                "curPortionSize2AmbientWater": 123,
-                "curPortionSize1ChilledWater": 123,
-                "curPortionSize2ChilledWater": 123,
-                "curPortionSize1SparklingWater": 123,
-                "curPortionSize2SparklingWater": 123,
-                "curPortionSize1MediumWater": 123,
-                "curPortionSize2MediumWater": 123,
-                "curPortionSize1HotWater": 123,
-                "curPortionSize2HotWater": 123,
-                "curBoilerTempSetPt": 123,
-                "curCoolerTempLvl": 123,
-                "lcdBrightness": 123,
-                "buttonBrightNormal": 123,
-                "buttonBrightDimmed": 123,
-                "deviceStandby": 123,
-                "boilerStandby": 123,
-                "userFillbyte3": 123,
-                "userFillbyte4": 123,
-                "userFillbyte5": 123
-              },
-              "productionSettings": {
-                "deviceProductFamily": 123,
-                "countOfNozzles": 123,
-                "countOfTgbs": 123,
-                "coolerType": 123,
-                "coolerSize": 123,
-                "deviceHasDripTray": 123,
-                "deviceHasWasteWaterContainer": 123,
-                "deviceHasBoiler": 123,
-                "deviceHasHs": 123,
-                "deviceHasFlowMeter": 123,
-                "prodDataFillbyte1": 123,
-                "prodDataFillbyte2": 123
-              },
-              "debugSettings": {
-                "hwTest": 123,
-                "fillbyte1": 123,
-                "fillbyte2": 123,
-                "fillbyte3": 123
-              },
-              "calibrationSettings": {
-                "tempColdThresholdUpper": 123,
-                "tempColdThresholdLower": 123,
-                "tempVeryColdThresholdUpper": 123,
-                "tempVeryColdThresholdLower": 123,
-                "tempExtremColdThresholdUpper": 123,
-                "tempExtremColdThresholdLower": 123,
-                "timerTicksPerLiterAmbient": 123,
-                "timerTicksPerLiterChilled": 123,
-                "timerTicksPerLiterSparkling": 123,
-                "timerTicksPerLiterMedium": 123,
-                "timerTicksPerLiterHot": 123,
-                "flowMeterTicksPerLiterAmbient": 123,
-                "flowMeterTicksPerLiterChilled": 123,
-                "flowMeterTicksPerLiterSparkling": 123,
-                "flowMeterTicksPerLiterMedium": 123,
-                "flowMeterTicksPerLiterHot": 123
-              },
-              "statistics": {
-                "ctrPreFilterHot": 123,
-                "timerPreFilterHot": 123,
-                "statFillbyte1": 123,
-                "statFillbyte2": 123
-              }
-            },
-            "slaves": {
-              "keypad": {
-                "state": "boot"
-              },
-              "cooler": {
-                "state": "boot"
-              },
-              "boiler": {
-                "state": "boot"
-              }
-            }
-          }
+        }
     ]
 }
