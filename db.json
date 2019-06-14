@@ -1,14 +1,14 @@
 {
     "devices": [
         {
-            "id": 3,
+            "id": 1,
             "devName": "device-1",
             "date": "02.02.1111",
             "text": "some text 1",
             "version": "v123.123.123"
         },
         {
-            "id": 7,
+            "id": 2,
             "devName": "device-2",
             "date": "03.03.1222",
             "text": "some text 2",
@@ -17,6 +17,7 @@
     ],
     "devicesInfo": [
         {
+            "id": 1,
             "datastore": {
                 "userDefaultSettings": {
                     "defPortionSize1AmbientWater": 123,
@@ -119,7 +120,7 @@
                 }
             }
         },
-        {
+        {   "id": 2,
             "datastore": {
                 "userDefaultSettings": {
                     "defPortionSize1AmbientWater": 123,
