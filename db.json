@@ -13,6 +13,34 @@
             "date": "03.03.1222",
             "text": "some text 2",
             "version": "v231.231.231"
+        },
+        {
+            "id": 3,
+            "devName": "device-3",
+            "date": "02.02.1111",
+            "text": "some text 3",
+            "version": "v123.123.123"
+        },
+        {
+            "id": 4,
+            "devName": "device-4",
+            "date": "03.03.1222",
+            "text": "some text 4",
+            "version": "v231.231.231"
+        },
+        {
+            "id": 5,
+            "devName": "device-5",
+            "date": "02.02.1111",
+            "text": "some text 5",
+            "version": "v123.123.123"
+        },
+        {
+            "id": 6,
+            "devName": "device-6",
+            "date": "03.03.1222",
+            "text": "some text 6",
+            "version": "v231.231.231"
         }
     ],
     "devicesInfo": [
